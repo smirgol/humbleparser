@@ -375,8 +375,7 @@ final class HumbleParser
             'Redeemed',
             'Expired',
             'Choices left',
-            'Redeem Page',
-            'Test'
+            'Redeem Page'
         ]);
 
         foreach ($data as $year => $year_data) {
@@ -390,8 +389,7 @@ final class HumbleParser
                         $game['redeemed'] ? 'Yes' : 'No',
                         $game['expired'] ? 'Yes' : 'No',
                         $game['choices_remaining'] ?: 'n/a',
-                        $game['redeem_page'],
-                        $month
+                        $game['redeem_page']
                     ]);
                 }
             }
